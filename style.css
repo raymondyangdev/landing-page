@@ -16,6 +16,15 @@ li a {
     text-decoration: none;
 }
 
+footer {
+    height: 72px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     height: 72px;
     background-color: #1F2937;
