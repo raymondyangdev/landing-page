@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+li a {
+    font-size: 18px;
+    color: #EFE7EB;
+    text-decoration: none;
+}
+
+.header {
+    height: 72px;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header #logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+
