@@ -99,6 +99,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 100px 0 100px 0;
 }
 
 #info h3 {
@@ -127,4 +128,31 @@ footer {
     height: 110px;
     width: 110px;
     outline: 3px solid blue;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 100px 0 100px 0;
+}
+
+#quote .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+
+#quote .wrapper p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 800px;
+}
+
+#quote .author {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 20px;
 }
