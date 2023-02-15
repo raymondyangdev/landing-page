@@ -25,18 +25,18 @@ footer {
     align-items: center;
 }
 
-.header {
+header {
     height: 72px;
     background-color: #1F2937;
     display: flex;
 }
 
-.header #logo {
-    color: #F9FAF8;
-    font-size: 24px;
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.container {
+.header {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -45,4 +45,75 @@ footer {
     flex: 1;
 }
 
+.header #logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
 
+#hero {
+    background-color: #1F2937;
+    padding: 100px 0 100px 0;
+}
+
+#hero .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    flex: 0 1 400px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #EFE7EB;
+}
+
+.hero-img {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    flex: 0 1 500px;
+}
+
+#info .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info h3 {
+    padding-bottom: 24px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 110px;
+    gap: 12px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.box {
+    height: 110px;
+    width: 110px;
+    outline: 3px solid blue; 
+}
