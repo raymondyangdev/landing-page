@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -12,28 +22,14 @@ ul {
 
 li a {
     font-size: 18px;
-    color: #EFE7EB;
+    color: #efe7eb;
     text-decoration: none;
-}
-
-footer {
-    height: 72px;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 header {
     height: 72px;
-    background-color: #1F2937;
+    background-color: #1f2937;
     display: flex;
-}
-
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .header {
@@ -46,12 +42,26 @@ header {
 }
 
 .header #logo {
-    color: #F9FAF8;
+    color: #f9faf8;
     font-size: 24px;
 }
 
+footer {
+    height: 72px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #hero {
-    background-color: #1F2937;
+    background-color: #1f2937;
     padding: 100px 0 100px 0;
 }
 
@@ -67,12 +77,12 @@ header {
 .hero-text h2 {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
 
 .hero-text p {
     font-size: 18px;
-    color: #EFE7EB;
+    color: #efe7eb;
 }
 
 .hero-img {
@@ -80,11 +90,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #F9FAF8;
+    color: #f9faf8;
     flex: 0 1 500px;
 }
 
-#info .wrapper {
+#info{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +114,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 110px;
+    max-width: 115px;
     gap: 12px;
 }
 
@@ -115,5 +125,5 @@ header {
 .box {
     height: 110px;
     width: 110px;
-    outline: 3px solid blue; 
+    outline: 3px solid blue;
 }
