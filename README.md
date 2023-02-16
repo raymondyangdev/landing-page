@@ -1,9 +1,11 @@
 ## Landing Page
 
-This is a landing page project I created as part of The Odin Project curriculum. The goal of this project was to create a basic landing page for a fictional product using HTML and CSS.
+This is a landing page project I created as part of The Odin Project curriculum. The goal of this project was to create a basic landing page using HTML and CSS.
+
+You can view the project requirements [here](https://www.theodinproject.com/lessons/foundations-landing-page#assignment)
 
 ## Live Demo
-You can view the live demo of the landing page here.
+You can view the live demo of the landing page [here](https://raymondyangdev.github.io/landing-page/).
 
 ## Project Objectives
 The main objectives of this project were to:
