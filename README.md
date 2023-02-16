@@ -1,4 +1,4 @@
-## Landing Page
+# Landing Page
 
 This is a landing page project I created as part of The Odin Project curriculum. The goal of this project was to create a basic landing page using HTML and CSS.
 
@@ -19,6 +19,12 @@ The main objectives of this project were to:
 ## Technologies Used
 * HTML
 * CSS
+
+## To Do
+ **Personalise the page:**
+ 
+ * Substitute own content into the design - e.g. make up a business
+ * Insert actual images in the placeholders
 
 ## Contributing
 This is a personal project created as part of a curriculum and is not open to contributions at this time. However, if you have any feedback or suggestions, feel free to reach out to me.
