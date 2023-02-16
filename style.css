@@ -55,6 +55,10 @@ button {
     font-size: 24px;
 }
 
+.container {
+    flex: 1;
+}
+
 footer {
     height: 72px;
     background-color: #1f2937;
@@ -203,3 +207,9 @@ footer {
     font-weight: 300;
     font-size: 18px;
 }
+
+/* @media (max-width: 768px){
+    #hero.wrapper {
+        flex-direction: column;
+    }
+} */
