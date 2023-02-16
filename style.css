@@ -98,6 +98,7 @@ footer {
 
 .hero-text button {
     border: none;
+    margin-top: 16px;
 }
 
 .hero-img {
@@ -118,6 +119,9 @@ footer {
 
 #info h3 {
     padding-bottom: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .flex-container {
@@ -170,6 +174,7 @@ footer {
     align-self: flex-end;
     font-weight: 700;
     font-size: 20px;
+    margin-top: 16px;
 }
 
 #cta {
