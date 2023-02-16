@@ -11,10 +11,6 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-.container {
-    flex: 1;
-}
-
 ul {
     list-style: none;
     display: flex;
@@ -31,6 +27,17 @@ header {
     height: 72px;
     background-color: #1f2937;
     display: flex;
+}
+
+button {
+    background-color: #3882F6;
+    color: #efe7eb;
+    font-weight: 900;
+    border: 2px solid #efe7eb;
+    border-radius: 8px;
+    padding: 8px 48px;
+    align-self: center;
+    cursor: pointer;
 }
 
 .header {
@@ -75,7 +82,7 @@ footer {
 }
 
 .hero-text {
-    flex: 0 1 400px;
+    flex: 0 1 450px;
 }
 
 .hero-text h2 {
@@ -87,6 +94,10 @@ footer {
 .hero-text p {
     font-size: 18px;
     color: #efe7eb;
+}
+
+.hero-text button {
+    border: none;
 }
 
 .hero-img {
@@ -131,7 +142,8 @@ footer {
 .box {
     height: 110px;
     width: 110px;
-    outline: 3px solid blue;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
 }
 
 #quote {
@@ -158,4 +170,29 @@ footer {
     align-self: flex-end;
     font-weight: 700;
     font-size: 20px;
+}
+
+#cta {
+    padding: 75px 36px;
+}
+
+#cta .flex-container {
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 72px 0;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+
+.flex-container.wrapper .cta-heading {
+    color: #e5e7eb;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.cta-subtext {
+    font-weight: 300;
+    font-size: 18px;
 }
