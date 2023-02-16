@@ -174,19 +174,21 @@ footer {
 
 #cta {
     padding: 75px 36px;
+    display: flex;
 }
 
-#cta .flex-container {
+.cta-container {
     background-color: #3882F6;
     border-radius: 16px;
-    padding: 72px 0;
-    max-width: 1000px;
+    height: 172px;
     display: flex;
-    justify-content: center;
-    gap: 128px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    gap: 36px;
 }
 
-.flex-container.wrapper .cta-heading {
+.cta-container.wrapper .cta-heading {
     color: #e5e7eb;
     font-weight: bolder;
     font-size: 24px;
